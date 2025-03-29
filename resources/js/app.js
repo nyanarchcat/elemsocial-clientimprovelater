@@ -131,7 +131,7 @@ function checkUpdates() {
         var authDiv = document.querySelector('#auth')
         var regDiv = document.querySelector('#reg')
         var notify = document.querySelector('#notification')
-        // Адаптация под экраны
+        // адаптация
         authDiv.style.left = (window.innerWidth - authDiv.clientWidth) / 2 + 'px'
         authDiv.style.top = (window.innerHeight - authDiv.clientHeight) / 2 + 'px'
         regDiv.style.left = (window.innerWidth - regDiv.clientWidth) / 2 + 'px'
